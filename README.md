@@ -5,3 +5,15 @@ The actual Chrome Extension will need to be built using JavaScript. However, you
 
 #Refrences:-
     https://medium.com/@oaishi.faria/connecting-chrome-extension-with-python-backend-912d1d0db26
+
+Steps:-
+    MAke our Django APP
+    Make it  REST API
+    Set up Cross-Origin connection
+            Each running extension exists within its own separate security origin. To connect with our python server, that lives in our localhost:8000, We need to use Cross-Origin XMLHttpRequest.
+
+            Our workflow will be like this -
+
+            Our popup script will communicate with background script via Message Passing. (line 10)
+            Our Background script will send a GET request to our server with the input keyword and send it back to the popup. (line 12–15)
+            Our popup script will show the server reply as an alert/notification. (line 13–23)
