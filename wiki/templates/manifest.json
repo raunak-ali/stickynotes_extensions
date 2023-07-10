@@ -1,0 +1,17 @@
+{
+    "manifest_version":2,
+    "name":"HELLO WORLDS",
+    "version":"1.0",
+    "description":"A EXTENSION",
+    "icons":{
+        "128":"/workspaces/stickynotes_extensions/wiki/templates/Icons/SHMT.png",
+        "48":"/workspaces/stickynotes_extensions/wiki/templates/Icons/SHMT.png",
+        "16":"/workspaces/stickynotes_extensions/wiki/templates/Icons/SHMT.png"
+    },
+    "browser_action":{
+        "default_item":"/workspaces/stickynotes_extensions/wiki/templates/Icons/SHMT.png",
+        "default_popup":"popup.html"
+
+    }
+
+}
