@@ -4,7 +4,10 @@ The actual Chrome Extension will need to be built using JavaScript. However, you
 
 
 #Refrences:-
-    https://medium.com/@oaishi.faria/connecting-chrome-extension-with-python-backend-912d1d0db26
+    -> https://medium.com/@oaishi.faria/connecting-chrome-extension-with-python-backend-912d1d0db26
+    -> https://www.youtube.com/watch?v=8q1_NkDbfzE&list=PLC3y8-rFHvwg2-q6Kvw3Tl_4xhxtIaNlY&index=1
+    -> https://github.com/oaishi/WikiSearch/tree/master
+
 
 Steps:-
     MAke our Django APP
